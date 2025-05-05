@@ -1,92 +1,68 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Super-Glass - Pare-brise à domicile</title>
-  <link rel="stylesheet" href="style.css"/>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super-Glass - Reparación de Parabrisas a Domicilio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- Botón WhatsApp -->
-  <a href="https://wa.me/33612345678" class="whatsapp" target="_blank">
-    <i class="fab fa-whatsapp"></i>
-  </a>
-
+  <!-- Sección principal -->
   <header>
-    <div class="container">
-      <h1>Super-Glass</h1>
-      <nav>
-        <a href="#services">Services</a>
-        <a href="#about">À propos</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="#technicians">Técnicos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <section id="hero">
-    <div class="container" data-aos="fade-up">
-      <h2>Remplacement de pare-brise à domicile</h2>
-      <p>Intervention rapide partout en France. Prise en charge par votre assurance.</p>
-      <a href="#contact" class="btn">Demandez un devis</a>
+  <!-- Sección de bienvenida -->
+  <section id="home">
+    <div class="container">
+      <h1>Bienvenido a Super-Glass</h1>
+      <p>Reparación de parabrisas a domicilio en toda Francia.</p>
+      <img src="img/reparacion_de_parabrisas.jpg" alt="Reparación de parabrisas" />
     </div>
   </section>
 
+  <!-- Sección de servicios -->
   <section id="services">
-    <div class="container" data-aos="fade-up">
-      <h2>Nos Services</h2>
-      <div class="services-grid">
-        <div class="card">
-          <img src="img/man-fixing-windshield-of-car.jpg" alt="Remplacement pare-brise" />
-          <h3>Remplacement sur place</h3>
-          <p>Nous intervenons chez vous ou sur votre lieu de travail avec tout l’équipement nécessaire.</p>
-        </div>
-        <div class="card">
-          <img src="img/a-person-holding-document.jpg" alt="Assurance prise en charge" />
-          <h3>Prise en charge assurance</h3>
-          <p>Nous nous occupons des démarches administratives avec votre assurance, sans avance de frais.</p>
-        </div>
-        <div class="card">
-          <img src="img/reparacion_de_parabrisas.jpg" alt="Reparación de parabrisas" />
-          <h3>Techniciens certifiés</h3>
-          <p>Notre équipe est formée et certifiée pour intervenir sur tous types de véhicules.</p>
-        </div>
-      </div>
+    <div class="container">
+      <h2>Servicios</h2>
+      <p>Ofrecemos servicio de reemplazo y reparación de parabrisas a domicilio.</p>
+      <ul>
+        <li>Reemplazo de parabrisas</li>
+        <li>Reparación de parabrisas</li>
+        <li>Revisión de cristales y lunas</li>
+        <li>Asesoramiento personalizado</li>
+      </ul>
     </div>
   </section>
 
-  <section id="about">
-    <div class="container" data-aos="fade-right">
-      <h2>À propos de Super-Glass</h2>
-      <p>Super-Glass est une entreprise française spécialisée dans le remplacement de pare-brise à domicile. Nous mettons un point d'honneur à offrir un service rapide, professionnel et sans tracas à tous nos clients.</p>
+  <!-- Sección de técnicos -->
+  <section id="technicians">
+    <div class="container">
+      <h2>Techniciens certifiés</h2>
+      <img src="img/techniciens-certifies.jpg" alt="Techniciens certifiés" />
+      <p>Nos techniciens sont formés et certifiés pour garantir un service de qualité.</p>
     </div>
   </section>
 
+  <!-- Sección de contacto (sin formulario) -->
   <section id="contact">
-    <div class="container" data-aos="fade-left">
-      <h2>Contactez-nous</h2>
-      <form action="https://formspree.io/f/xknlnzqa" method="POST">
-        <input type="text" name="name" placeholder="Votre nom" required />
-        <input type="email" name="email" placeholder="Votre email" required />
-        <textarea name="message" placeholder="Votre message" required></textarea>
-        <button type="submit">Envoyer</button>
-      </form>
-      <p>Ou appelez-nous au <strong>+33 6 12 34 56 78</strong></p>
+    <div class="container">
+      <h2>Contacto</h2>
+      <p>Para cualquier consulta o para agendar una cita, llámanos al <strong>+33 123 456 789</strong> o envíanos un correo a <strong>contact@super-glass.fr</strong>.</p>
     </div>
   </section>
 
   <footer>
     <div class="container">
-      <p>© 2025 Super-Glass. Tous droits réservés.</p>
+      <p>&copy; 2025 Super-Glass. Todos los derechos reservados.</p>
     </div>
   </footer>
-
-  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
 </body>
 </html>
